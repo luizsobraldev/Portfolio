@@ -1,0 +1,120 @@
+header{
+  background-image: url(../assets/images/Background_Intro.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100%;
+  width: 100%;
+  padding-top: 90px;
+}
+  
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 120px 163px 70px 163px;
+  width: 1040px;
+  margin-inline: auto;
+}
+
+.container .vector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro img{
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  border: 2px solid var(--color-red);
+  padding: 4px;
+  animation: moveTop 3s infinite;
+}
+
+@keyframes moveTop {
+  0% {
+    transform: translateY(0);
+}
+  50% {
+    transform: translateY(-5px); /* Move para cima */
+} 
+  100% {
+    transform: translateY(0); /* Retorna para a posição original */
+}
+}
+
+
+.intro h3{
+  font: var(--subtitle);
+  color: var(--color-gray-500);
+  margin-block: 56px 8px;
+}
+
+.intro span{
+  color: var(--color-red);
+}
+
+.intro h1{
+  font: var(--title-lg);
+  color: var(--color-gray-600);
+  overflow: hidden; 
+  border-right: 3px solid var(--color-gray-600); 
+  white-space: nowrap;
+  animation: typing 3s steps(30, end);
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.intro p{
+  margin-top: 20px;
+  font: var(--text-sm-maven-pro);
+  color: var(--color-gray-400);
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 80px 94px;
+  gap: 16px;
+  
+}
+
+.links a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  gap: 8px;
+  background-color: var(--color-gray-300);
+  padding: 8px 16px;
+  border-radius: 999px;
+  animation: moveTop 3s infinite;
+  cursor: pointer;
+}
+
+.links img {
+  width: 24px;
+  height: 24px;
+}
+
+.links p{
+  font: var(--text-md-maven-pro);
+  color: var(--color-gray-500);
+}
+
+
