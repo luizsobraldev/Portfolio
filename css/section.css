@@ -1,34 +1,33 @@
-#projects{
-  padding: 72px 120px 144px 120px;
-  background-color: var(--color-gray-200);
+#projects {
+  padding: 60px 120px 170px 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.info{
+.info {
   text-align: center;
 }
 
-.info h3{
-  color: var(--color-red);
+.info h3 {
+  color: var(--color-blue-dark);
   font: var(--subtitle);
 }
 
-.info h2{
+.info h2 {
   color: var(--color-gray-600);
   font: var(--title-md);
   margin-block: 8px 56px;
 }
 
-.job{
+.job {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-.card{
+.card {
   background: var(--color-gray-300);
   padding: 12px;
   border-radius: 12px;
@@ -41,117 +40,114 @@
   transition: transform 0.5s ease, border 0.3s ease;
 }
 
-.card:hover{
+.card:hover {
   border: 1.5px solid var(--color-gray-400);
   transform: scale(1.03);
 }
 
-.card img{
+.card img {
   width: 306px;
   height: 280px;
   border-radius: 8px;
 }
 
-.card .form-img{
+.card .form-img {
   width: 306px;
   height: 165px;
 }
 
-.card .burger-img{
+.card .burger-img {
   width: 306px;
   height: 165px;
 }
 
-.card h3{
+.card h3 {
   color: var(--color-gray-600);
   font: var(--title-sm);
   margin-block: 20px 8px;
 }
 
-.card p{
+.card p {
   color: var(--color-gray-500);
   font: var(--text-sm-maven-pro);
 }
 
-.services{
-  background-color: var(--color-gray-100);
+.services {
   padding: 88px 120px 120px 120px;
 }
 
-.negocios{
+.negocios {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
 }
 
-article{
+article {
+  background-color: #151515;
   border: 2px solid var(--color-gray-200);
   padding: 20px;
   border-radius: 12px;
   transition: transform 0.4s ease, border 0.3s ease;
 }
 
-article:hover{
+article:hover {
   border: 1.5px solid var(--color-gray-400);
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
-article h4{
+article h4 {
   color: var(--color-gray-600);
   font: var(--title-sm);
   margin-block: 20px 8px;
-  user-select: none;
 }
 
-article p{
+article p {
   font: var(--text-sm-maven-pro);
   color: var(--color-gray-500);
-  user-select: none;
 }
 
-.contacts{
-  background-image: url(../assets/images/Background_Contacts.png);
+.contacts {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  padding: 128px 120px 200px 120px;
+  padding: 135px 120px 100px 120px;
 }
 
-.social-info{
+.social-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.social-info h4{
-  color: var(--color-purple);
+.social-info h4 {
+  color: var(--color-blue-dark);
   font: var(--subtitle);
 }
 
-.social-info h3{
+.social-info h3 {
   color: var(--color-gray-600);
   font: var(--title-md);
   margin-block: 8px 8px;
 }
 
-.social-info p{
+.social-info p {
   font: var(--text-md-maven-pro);
   color: var(--color-gray-500);
   margin-bottom: 48px;
 }
 
-.social-media{
+.social-media {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.social-media a{
+.social-media a {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -159,33 +155,33 @@ article p{
   border-radius: 8px;
   margin-bottom: 16px;
   width: 400px;
+  max-height: 70px;
   gap: 12px;
   text-decoration: none;
-  background-color: var(--color-gray-300);
+  background-color: #151515;
   transition: transform 0.3s ease, border 0.3s ease;
 }
 
-.social-media a:hover{
-  border: 1.5px solid var(--Main-Blue, #3996DB);
+.social-media a:hover {
+  border: 1.5px solid var(--Main-Blue, #3996db);
+  transform: scale(1.03);
 }
 
 .social-media a .arrow {
   margin-left: auto;
 }
 
-.social-media a p{
+.social-media a p {
   font: var(--text-md-maven-pro);
   color: var(--color-gray-500);
 }
 
-.social-media a:nth-child(5){
+.social-media a:nth-child(5) {
   margin-bottom: 0;
 }
 
-.social-media a:nth-child(5) img:nth-child(1){
+.social-media a:nth-child(5) img:nth-child(1) {
   height: 26px;
   width: 26px;
   color: var(--color-gray-100);
 }
-
-

@@ -1,38 +1,27 @@
-header{
-  background-image: url(../assets/images/Background_Intro.png); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; 
+header {
   height: 100%;
   width: 100%;
-  padding-top: 90px;
 }
-  
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
-  padding: 120px 163px 70px 163px;
+  padding: 95px 163px 70px 163px;
   width: 1040px;
   margin-inline: auto;
 }
 
-.container .vector{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.intro{
+.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.intro img{
+.intro img {
   width: 130px;
   height: 130px;
   border-radius: 999px;
-  border: 2px solid var(--color-red);
+  border: 2px solid var(--color-blue-dark);
   padding: 4px;
   animation: moveTop 3s infinite;
 }
@@ -40,33 +29,36 @@ header{
 @keyframes moveTop {
   0% {
     transform: translateY(0);
-}
+  }
   50% {
     transform: translateY(-5px); /* Move para cima */
-} 
+  }
   100% {
     transform: translateY(0); /* Retorna para a posição original */
-}
+  }
 }
 
-
-.intro h3{
+.intro h3 {
   font: var(--subtitle);
-  color: var(--color-gray-500);
+  color: #fff;
   margin-block: 56px 8px;
 }
 
-.intro span{
-  color: var(--color-red);
+.intro span {
+  color: var(--color-blue-dark);
 }
 
-.intro h1{
+.intro h1 {
   font: var(--title-lg);
   color: var(--color-gray-600);
-  overflow: hidden; 
-  border-right: 3px solid var(--color-gray-600); 
+  overflow: hidden;
+  border-right: 3px solid var(--color-gray-600);
   white-space: nowrap;
-  animation: typing 3s steps(30, end);
+  animation-name: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes typing {
@@ -78,23 +70,31 @@ header{
   }
 }
 
-.intro p{
+.intro h1 span {
+  color: var(--color-blue-dark);
+}
+
+.intro p {
   margin-top: 20px;
   font: var(--text-sm-maven-pro);
-  color: var(--color-gray-400);
+  color: var(--color-gray-500);
   text-align: center;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-block: 80px 94px;
+  margin-block: 60px 94px;
   gap: 16px;
-  
+}
+.container .vector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.links a{
+.links a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -112,9 +112,7 @@ header{
   height: 24px;
 }
 
-.links p{
+.links p {
   font: var(--text-md-maven-pro);
-  color: var(--color-gray-500);
+  color: #fff;
 }
-
-
