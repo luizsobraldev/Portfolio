@@ -1,0 +1,94 @@
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro h3 {
+    font-size: 0.925rem;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .intro p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-block: 50px 80px;
+  }
+
+  .links a {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #projects {
+    padding: 60px 120px 120px 120px;
+  }
+
+  .info h3 {
+    font: var(--subtitle-lg);
+  }
+
+  .info h2 {
+    font: var(--title-sm);
+  }
+
+  .job {
+    grid-template-columns: 1fr;
+  }
+
+  .services {
+    padding: 60px 110px 80px 110px;
+  }
+
+  .info h2 {
+    font: var(--title-sm);
+  }
+
+  .negocios {
+    flex-direction: column;
+  }
+
+  article h4 {
+    margin-block: 10px 8px;
+  }
+
+  .contacts {
+    min-height: 100vh;
+    padding: 90px 100px 60px 100px;
+  }
+
+  .social-info h4 {
+    font: var(--subtitle-lg);
+  }
+
+  .social-info h3 {
+    font: var(--title-sm);
+    text-align: center;
+  }
+
+  .social-info p {
+    text-align: center;
+  }
+
+  .social-media a {
+    width: 300px;
+  }
+}

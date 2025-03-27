@@ -55,7 +55,7 @@ header {
   border-right: 3px solid var(--color-gray-600);
   white-space: nowrap;
   animation-name: typing;
-  animation-duration: 3s;
+  animation-duration: 3.5s;
   animation-timing-function: steps(30, end);
   animation-iteration-count: infinite;
   animation-direction: alternate;
