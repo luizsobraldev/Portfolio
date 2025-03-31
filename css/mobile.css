@@ -92,3 +92,9 @@
     width: 300px;
   }
 }
+
+@media (min-width: 1600px) {
+  .container {
+    padding: 220px 163px 70px 163px;
+  }
+}
