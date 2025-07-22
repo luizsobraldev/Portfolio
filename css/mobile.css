@@ -91,6 +91,10 @@
   .social-media a {
     width: 300px;
   }
+
+  footer p {
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 1600px) {

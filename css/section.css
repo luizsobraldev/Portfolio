@@ -109,7 +109,7 @@ article p {
 
 .contacts {
   width: 100%;
-  padding: 135px 120px 100px 120px;
+  padding: 135px 120px 80px 120px;
 }
 
 .social-info {
@@ -180,4 +180,15 @@ article p {
   height: 26px;
   width: 26px;
   color: var(--color-gray-100);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font: var(--text-md-maven-pro);
+  color: #fff;
+  margin-bottom: 20px;
 }
